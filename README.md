@@ -21,54 +21,85 @@ pip install sympy
 # Usage
 
 ## Run the script:
+
 ```bash
+
 python ChemEqBalancer.py
+
 ```
 
 ## Enter chemical equations in the format:
+
 ```text
+
 Reactant1 + Reactant2 + ... -> Product1 + Product2 + ...
+
 ```
 
 # Examples:
 Input:
+
 ```text
+
 H2 + O2 -> H2O
+
 ```
+
 Output:
+
 ```text
+
 Balanced equation:
 2H2 + O2 -> 2H2O
+
 ```
 
 Input:
+
 ```text
+
 Fe + O2 = Fe2O3
+
 ```
+
 Output:
+
 ```text
+
 Balanced equation:
 2H2 + O2 = 2H2O
+
 ```
 
 Input:
+
 ```text
 Al + H2SO4 → Al2(SO4)3 + H2
+
 ```
+
 Output:
+
 ```text
+
 Balanced equation:
 2Al + 3H2SO4 → Al2(SO4)3 + 3H2
+
 ```
 
 Input:
+
 ```text
 CuSO4·5H2O -> CuSO4 + H2O
+
 ```
+
 Output:
+
 ```text
 Balanced equation:
 CuSO4·5H2O -> CuSO4 + 5H2O
+
 ```
 
 # Special Commands
